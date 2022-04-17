@@ -1,0 +1,43 @@
+#board {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(../img/plain-blue-background-128705-701773-3720120.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 70px;
+    color: greenyellow;
+}
+
+.textscore {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: greenyellow;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    margin-left: 10px;
+}
+
+
+#gameboard {
+    border: solid 3px greenyellow;
+    box-shadow: 10px 10px 30px greenyellow;
+}
+
+canvas {
+    background-color: black;
+}
